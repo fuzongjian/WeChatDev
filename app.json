@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/devTool/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/devTool/animation/index",
+    "pages/devTool/weRun/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
