@@ -1,0 +1,5 @@
+<!--pages/devTool/component/index.wxml-->
+<view class='main'>
+   <dialog id="dialog" title='我就是标题' content='求知若渴，虚怀若谷。' cancleText='取消' confirmText='确定' bind:cancleEvent="cancleEvent"   bind:confirmEvent="sureEvent"></dialog>
+   <button type='primary' bindtap='showDialog'>Show!</button>
+</view>

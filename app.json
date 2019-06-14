@@ -4,7 +4,10 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/devTool/animation/index",
-    "pages/devTool/weRun/index"
+    "pages/devTool/weRun/index",
+    "pages/devTool/flexLayout/index",
+    "pages/devTool/component/index",
+    "pages/devTool/component/src/dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",

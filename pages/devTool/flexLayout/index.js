@@ -1,23 +1,20 @@
-// pages/devTool/index.js
+// pages/devTool/flexLayout/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    grids: [
-      {url: "animation/index", title: "动画"},
-      {url: "weRun/index",title: "微信运动"},
-      {url: "flexLayout/index",title: "flex布局"},
-      {url: "component/index", title: "自定义组件"}
-    ]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    wx.setNavigationBarTitle({
+      title: 'Flex布局',
+    })
   },
 
   /**

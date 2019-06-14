@@ -1,0 +1,68 @@
+/* pages/devTool/flexLayout/index.wxss */
+text{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+}
+.main{
+  width: 100%;
+  background-color: antiquewhite;
+}
+.main1{
+  display: flex;
+}
+.main2{
+  display: flex;
+  flex-direction: column;
+}
+.main3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.item{
+  width: 100rpx;
+  height: 100rpx;
+}
+.item1{
+  background-color: red;
+}
+.item2{
+  height: 150rpx;
+  padding-top: 40rpx;
+  background-color: yellow;
+}
+.item3{
+  height: 200rpx;
+  padding-top: 20rpx;
+  background-color: greenyellow;
+}
+
+/* flex-grow */
+.main5{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.item-item1{
+  background-color: red;
+  flex-grow: 1;
+}
+.item-item2{
+  background-color: yellow;
+  flex-grow: 1;
+}
+.item-item3{
+  background-color: greenyellow;
+  flex-grow: 2;
+}
